@@ -10,4 +10,5 @@
 ## 설치
 ### node js 설치
 * Visual Studio Working Directory Open.
-* VS New Terminal **(npm init)**
+* npm packages install
+  * **npm init**
