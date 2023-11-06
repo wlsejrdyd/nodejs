@@ -57,3 +57,4 @@ app.listen(port, () => {
 ```
 * Visual Studio Terminal
 * **npm run start**
+* 로컬 PC의 브라우저에서 localhost:5000 접속확인
