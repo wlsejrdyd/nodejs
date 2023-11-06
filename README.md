@@ -35,3 +35,25 @@ app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
 ```
+
+### nodejs 실행
+* index.js 파일 매핑 **"start": "node index.js",**
+```
+{
+  "name": "boiler-plate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jindy",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+  }
+}
+```
+* Visual Studio Terminal
+* **npm run start**
