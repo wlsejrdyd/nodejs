@@ -16,9 +16,9 @@
   * package.json 생성 됐는지 확인
 
 ### expressjs 설치
+* framework for nodejs
 * Visual Studio Terminal
 * **npm install express --save**
-  * framework for nodejs
 
 ### index 생성
 * Visual Studio Create new file **index.js**
