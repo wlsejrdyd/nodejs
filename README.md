@@ -8,7 +8,30 @@
   * Mongoose : 8.0.0
 
 ## 설치
-### node js 설치
+### nodejs 설치
 * Visual Studio Working Directory Open.
 * npm packages install
   * **npm init**
+  * init 진행 중 author 에 구분할 이름만 넣고 생성해줌
+  * package.json 생성 됐는지 확인
+
+### expressjs 설치
+* Visual Studio Terminal
+* **npm install express --save**
+  * framework for nodejs
+
+### index 생성
+* Visual Studio Create new file **index.js**
+```
+const express = require('express')
+const app = express()
+const port = 5000
+
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+})
+
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`)
+})
+```
