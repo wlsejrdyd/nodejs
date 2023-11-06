@@ -59,6 +59,10 @@ app.listen(port, () => {
 * **npm run start**
 * 로컬 PC의 브라우저에서 localhost:5000 접속확인
 
+### Mongoose 설치
+* MongoDB를 간편하게 사용할 수 있게 만들어 주는 툴
+* **npm install mongoose --save**
+
 ### MongoDB 연결
 * 몽고 DB 사용자 계정생성 이후 index.js 파일에 추가
 ```
@@ -68,4 +72,4 @@ mongoose.connect('mongodb+srv://jindy:<PASSWORD>@atlascluster.0tp6ydt.mongodb.ne
 .catch(err => console.log(err))
 ```
 * **npm run start**
-  * MongoDB Connected... 출력되면 정상연결
+  * "MongoDB Connected..." 출력되면 정상연결
