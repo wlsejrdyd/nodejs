@@ -73,3 +73,6 @@ mongoose.connect('mongodb+srv://jindy:<PASSWORD>@atlascluster.0tp6ydt.mongodb.ne
 ```
 * **npm run start**
   * "MongoDB Connected..." 출력되면 정상연결
+
+### User schema 생성
+* 
